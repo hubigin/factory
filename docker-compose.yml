@@ -1,0 +1,8 @@
+services:  
+  python:
+        build: 
+            context: ./docker/python
+        container_name: python
+        environment:
+            TIMEZONE: Europe/Paris
+        restart: always
